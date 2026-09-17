@@ -1,18 +1,14 @@
 <div align="center">
-  <a href="https://nodei.co/npm/media-downloader-ez" title="npm"><img src="https://nodei.co/npm/media-downloader-ez.png?downloads=true&downloadRank=true&stars=true"></img></a>
+  <a href="https://nodei.co/npm/@media-downloaders/v2" title="npm"><img src="https://nodei.co/npm/@media-downloaders/v2.png?downloads=true&downloadRank=true&stars=true"></img></a>
 </div>
 
-![Multi_Color_Bar](https://github.com/Walkoud/CS2-Auto-Accept/assets/38588921/3f57ad10-c80c-457a-9f49-679558eb2f79)
-
-# media-downloader-ez
+# @media-downloaders/v2
 A simple npm package to download videos from various platforms, including Instagram, YouTube, TikTok, X/Twitter, and more.
 
 ## Features
 - **AutoCompress**: Automatically compress videos with a size limit.
 - **AutoCrop**: Automatically crop videos to remove black bars.
 - **Rotate**: Rotate the video left or right.
-
-![image](https://github.com/user-attachments/assets/f53e9f13-98a4-4d5e-a2e1-fa67f959f8f0)
 
 ## Supported Platforms
 - Facebook
@@ -34,7 +30,7 @@ A simple npm package to download videos from various platforms, including Instag
 ## Basic Example
 
 ```js
-const MediaDownloader = require('media-downloader-ez');
+const MediaDownloader = require('@media-downloaders/v2');
 
 let url = "http://";
 
@@ -51,7 +47,7 @@ MediaDownloader(url, {
 ## Example for Discord.js
 
 ```js
-const MediaDownloader = require('media-downloader-ez');
+const MediaDownloader = require('@media-downloaders/v2');
 const Discord = require('discord.js-v11-stable');
 const client = new Discord.Client({
     disableEveryone: true
@@ -102,7 +98,7 @@ To download YouTube videos requiring authentication, follow these steps:
 ### Example with YouTube Cookie
 
 ```js
-const MediaDownloader = require('media-downloader-ez');
+const MediaDownloader = require('@media-downloaders/v2');
 
 let url = "http://";
 let cookie = "your_cookie_here";
@@ -132,5 +128,6 @@ if (MediaDownloader.isVideoLink(url)) {
 
 ---
 
-![Multi_Color_Bar](https://github.com/Walkoud/CS2-Auto-Accept/assets/38588921/3f57ad10-c80c-457a-9f49-679558eb2f79)
+## Credits
 
+This package is built upon the main **media-downloaders** project. Special thanks to **Walkoud**, the main contributor of the original project.
